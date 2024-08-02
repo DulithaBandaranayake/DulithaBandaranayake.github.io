@@ -1,0 +1,32 @@
+# Global settings for all user-agents
+User-agent: *
+Disallow: /private/          # Disallow access to private directory
+Disallow: /temp/             # Disallow access to temporary directory
+Disallow: /login.html        # Disallow access to login page (if applicable)
+Allow: /
+
+# Allow specific bots to access certain sections
+User-agent: Googlebot
+Allow: /public/              # Allow Googlebot to access the public directory
+
+User-agent: Bingbot
+Allow: /images/              # Allow Bingbot to access the images directory
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /                  # Block BadBot from crawling any part of the site
+
+# Sitemap location
+Sitemap: https://dulithabandaranayake.github.io/sitemap.xml
+
+# Crawl-delay (set in seconds)
+User-agent: *
+Crawl-delay: 10              # Request each 10 seconds to reduce server load
+
+# Blocking certain file types
+User-agent: *
+Disallow: /*.pdf$            # Disallow access to all PDF files
+
+# Allow access to a specific file
+User-agent: *
+Allow: /public/open-to-all.html  # Allow access to a specific file
