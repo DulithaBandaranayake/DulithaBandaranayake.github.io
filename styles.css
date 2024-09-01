@@ -449,7 +449,7 @@ footer p {
 .profile-img {
   width: 400px; /* Adjust size as needed */
   height: 400px;
-  border-radius: 50%; /* Circular shape */
+  border-radius: 40px; /* Circular shape */
   position: relative;
   overflow: hidden; /* Ensure no overflow */
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), /* Main shadow for depth */

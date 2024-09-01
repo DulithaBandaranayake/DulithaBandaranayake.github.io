@@ -151,8 +151,8 @@
     }
 
     .profile-img {
-      width: 200px; /* Adjust size as needed */
-      height: 200px; /* Maintain aspect ratio */
+      width: 150px; /* Adjust size as needed */
+      height: 150px; /* Maintain aspect ratio */
       position: relative; /* Ensure the profile image is positioned properly */
       z-index: 1; /* Lower z-index value than the dropdown menu */
     }
